@@ -1,0 +1,260 @@
+html {
+	  margin:0px 0px 0px 0px;
+	  padding:0% 0px 0% 0px;
+	  overflow:visible;
+	  height:auto;
+}
+body {
+	  margin:0px 0px 0px 0px;
+	  padding:0% 0px 10% 0px;
+	  width:100%;
+	  height:cover;
+	  background-blend-mode: multiply;
+	  background:url(../../pic/fon.jpg) no-repeat;
+	  background-size:cover;
+	  
+}
+
+#main {
+	   width:100%;
+	   height:cover;
+	   background:linear-gradient(180deg,rgba(0,0,0,0.5) 0%,rgba(255,255,255,0) 45%, rgba(255,255,255,0) 55%, rgba(0,0,0,0.5) 100%);
+	   display:flex;
+	   justify-content:space-evenly;
+	   align-items:center;
+	   align-content:center;
+	   flex-wrap:wrap;
+	   
+       
+}
+
+#main>h1 {
+	      position:relative;
+		  top:0%;
+		  margin:5% 0px 0% 0px;
+	      color:white;
+		  width:100%;
+		  text-align:center;
+		  font-size:36px;
+		  font-family:ExoThin;
+		  font-weight:normal;
+		  opacity:0.75;
+		  
+		  
+		  
+}
+
+
+
+#kat1 {
+	   margin:20% 0px 0px 0px;
+}
+
+
+#kat2 {
+	   margin:20% 0px 0px 0px;
+}
+
+
+
+#kat3 {
+	   margin:20% 0px 0px 0px;
+}
+
+
+
+
+
+
+.kat {
+	  width:320px;
+	  height:480px;
+	  position:relative;
+	  display:flex;
+	  justify-content:flex-end;
+	  align-items:flex-start;
+	  align-content:flex-start;
+	  flex-wrap:wrap;
+	  margin:0% 0px 0px 0px;
+}
+
+.katposition {
+	          position:absolute;
+			  left:4px;
+			  bottom:4px;
+			  z-index:10;
+}
+
+.svgborder {
+	           margin:0px 0px 0px 0px;
+	           width:320px;
+			   height:480px;
+			   position:absolute;
+			   left:0px;
+			   top:0px;
+			   z-index:1;
+}
+
+
+.seap {
+	   z-index:10;
+	   width:100%;
+	   font-family:Trebuchet MS;
+	   color:rgb(147,147,147);
+	   width:85%;
+	   text-align:left;
+	   margin:6% 0px 0px 0px;
+}
+
+.h1nyam {
+	    z-index:10;
+        margin:2% 0px 0px 0px;
+        width:86%;
+		font-size:48px;
+		font-family:Trebuchet MS;
+		font-weight:bold;
+		text-align:left;
+}
+
+.h2nyam {
+	    z-index:10;
+        margin:0px 0px 0px 0px;
+        text-align:left;
+		width:85%;
+		font-family:Trebuchet MS;
+		font-size:24px;
+		font-weight:bold;
+		
+}
+
+.about {
+	    width:85%;
+		text-align:left;
+		z-index:10;
+	    color:rgb(147,147,147);
+		margin:4% 0px 0px 0px;
+}
+
+.catweight  {
+	         width:80px;
+			 height:80px;
+			 z-index:10;
+			 border-radius:40px;
+			 position:absolute;
+			 bottom:15px;
+			 right:15px;
+			 display:flex;
+			 justify-content:center;
+			 align-items:center;
+	
+}
+
+.catweight p  {
+                margin:15% 0px 0px 0px;	
+				text-align:center;
+				color:white;
+				font-family:Trebuchet MS;
+				font-size:42px;
+				line-height:30px;
+				display:flex;
+				justify-content:center;
+				align-items:flex-end;
+				flex-wrap:wrap;
+}
+
+#catweight1 {
+	         background-color:rgb(22,152,217);
+}
+
+#catweight2 {
+	         background-color:rgb(22,152,217);
+}
+
+#catweight3 {
+	         background-color:rgb(22,152,217);
+}
+
+
+
+.catweight>p span  {
+	            width:100%;
+				color:white;
+				font-family:Trebuchet MS;
+				font-size:20px;
+}
+
+
+
+
+.aboutfooter1 {
+	          position:absolute;
+	          z-index:10;
+			  font-family:Trebuchet MS;
+			  font-size:13px;
+			  color:white;
+			  text-align:center;
+			  width:100%;
+			  bottom:-30px;
+			  margin:0px 0px 0px 0px;
+}
+
+.aboutfooter1 a {
+	             color:rgb(22,152,217);
+				 border-bottom:1px dashed;
+				 text-decoration:none;
+}
+
+.dotsblue {
+	             color:rgb(22,152,217);
+}
+
+
+.aboutfooter2 {
+	          position:absolute;
+	          z-index:10;
+			  font-family:Trebuchet MS;
+			  font-size:13px;
+			  color:white;
+			  text-align:center;
+			  width:100%;
+			  bottom:-30px;
+			  margin:0px 0px 0px 0px;
+			  display:none;
+}
+
+
+.aboutfooter3 {
+	          position:absolute;
+	          z-index:10;
+			  font-family:Trebuchet MS;
+			  font-size:13px;
+			  color:rgba(255,255,102);
+			  text-align:center;
+			  width:100%;
+			  bottom:-30px;
+			  margin:0px 0px 0px 0px;
+			  display:none;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+	font-family: ExoThin;
+	src: url("../font/ExoThin.otf");
+}
